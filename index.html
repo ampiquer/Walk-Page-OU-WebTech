@@ -21,44 +21,121 @@
                     <fieldset>
                         <h3>NEW WALK</h3>
                             <div class="form-group">
-                                <input id="name" name="name" type="text" value="Name" />
+                                <input id="name" name="name" type="text" placeholder="Name" />
                             </div>
                             <div class="form-group">
-                                <input id="date" name="date" type="text" value="Date"/>
+                                <input id="date" name="date" type="text" placeholder="Date"/>
                             </div>
                             <div class="form-group">
-                                <input id="time" name="time" type="text" value="Start time"/>
+                                <input id="time" name="time" type="text" placeholder="Start time"/>
                             </div>
                             <div class="form-group">
-                                <input id="meeting" name="meeting" type="text" value="Meeting point"/>
+                                <input id="meeting" name="meeting" type="text" placeholder="Meeting point"/>
                             </div>
                             <div class="form-group">
-                                <input id="distance" name="distance" type="text" value="Distance in miles"/>
+                                <input id="distance" name="distance" type="text" placeholder="Distance in miles"/>
                             </div>
                             <div class="form-group">
-                                <input id="notes" name="notes" type="text" value="Notes" />
+                                <input id="notes" name="notes" type="text" placeholder="Notes" />
                             </div>
                             <div class="button">
                                 <input type="button" value="Remove/Reject">
                                 <input type="button" value="Save as draft">
-                                <input type="button" value="Upload">
+                                <input type="submit" value="Upload">
                             </div>
                     </fieldset>
                 </form>
             </div>
             <div>
-                <h3>WALKS</h3>
                 <fieldset>
+                <h3>WALKS</h3>
+                
                     <input id="all" name="all" type="radio" value="All"/>
-                
+                    <label for="all">All</label>
+                    <input id="drafts" name="drafts" type="radio" value="Drafts"/>
+                    <label for="drafts">Drafts</label>
+                    <input id="proposed" name="proposed" type="radio" value="Proposed"/>
+                    <label for="proposed">Proposed</label>
+                    <input id="posted" name="posted" type="radio" value="Posted"/>
+                    <label for="posted">Posted</label>
+                    <input id="by_date" name="by_date" type="radio" value="By Date">
+                    <label for="by_date">By Date</label>
+                    <label for="calendar1">From:</label>
+                    <input id="calendar1" name="calendar1" type="text" value="dd/mm/yyyy">
+                    <label for="calendar2">To:</label>
+                    <input id="calendar2" name="calendar2" type="text" value="dd/mm/yyyy">
+                    <input type="button" value="Go">
+                    <br>
+                    <a class="filter" href="">Oldest first</a> <a class="filter" id="selected_filter" href="">Newest first</a>
                 </fieldset>
-                
-                <div>
+                <div id="examples_area">
+                    <div class="examples">
+                        <div class="data_column">
+                            <p><b>Callander to Trossachs</b></p>
+                            <p>Date: 13 / 07 / 2020</p>
+                            <p>Start Time: 10am</p>
+                            <p>Meeting Point: Callander Car Park</p>
+                            <p>Distance in Miles: 15m</p>
+
+                        </div>
+                        <div class="notes_column">
+                            <p><b>Notes:</b></p>
+                            <p>Bring comfy shoes!</p>
+                            <p>Don't forget water and food.</p>
+                        </div>
+
+                        <div class="info_and_buttons">
+                            <p class="upper_info">Proposed 19 / 05 / 2020</p>
+                            <input class="examples_buttons" type="button" value="Remove/Reject">
+                            <input class="examples_buttons" type="button" value="Edit">
+                        </div>
+
+                    </div>
+
+                    <div class="examples">
+                        <div class="data_column">
+                            <p><b>Callander to Trossachs</b></p>
+                            <p>Date: 13 / 07 / 2020</p>
+                            <p>Start Time: 10am</p>
+                            <p>Meeting Point: Callander Car Park</p>
+                            <p>Distance in Miles: 15m</p>
+
+                        </div>
+                        <div class="notes_column">
+                            <p><b>Notes:</b></p>
+                            <p>Bring comfy shoes!</p>
+                            <p>Don't forget water and food.</p>
+                        </div>
+
+                        <div class="info_and_buttons">
+                            <p class="upper_info">Proposed 19 / 05 / 2020</p>
+                            <input class="examples_buttons" type="button" value="Remove/Reject">
+                            <input class="examples_buttons" type="button" value="Edit">
+                        </div>
+                    </div>
+
+                    <div class="examples">
+                        <div class="data_column">
+                            <p><b>Callander to Trossachs</b></p>
+                            <p>Date: 13 / 07 / 2020</p>
+                            <p>Start Time: 10am</p>
+                            <p>Meeting Point: Callander Car Park</p>
+                            <p>Distance in Miles: 15m</p>
+
+                        </div>
+                        <div class="notes_column">
+                            <p><b>Notes:</b></p>
+                            <p>Bring comfy shoes!</p>
+                            <p>Don't forget water and food.</p>
+                        </div>
+
+                        <div class="info_and_buttons">
+                            <p class="upper_info">Proposed 19 / 05 / 2020</p>
+                            <input class="examples_buttons" type="button" value="Remove/Reject">
+                            <input class="examples_buttons" type="button" value="Edit">
+                        </div>
+                    </div>
                 </div>
-                
-                <div>
-                </div>
-            
             </div>
             
         </article> 
