@@ -9,71 +9,80 @@ select {
   font-size: 1.4rem;
 }
 
-form {
-  /* Nicer shading and sizing */
-  background-color: #eee;
-  padding: 0.5rem;
-  /* Use border-box sizing to set width ignoring padding/border */
-  box-sizing: border-box;
-  /* Fix width of form and centre horizontally in page */
-  width: 40rem;
-  margin: auto;
-  /* Never be wider than the space available */
-  max-width: 100%;
+article {
+    align-items: center;
+}
+header {
+    display:flex;
 }
 
-/* Nicer spacing and sizing */
+form {
+ 
+   max-height: inherit;
+    max-width: auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+  
+}
+
+
 fieldset {
   margin-bottom: 0.5rem;
-}
-legend {
-  font-size: 90%;
-  font-weight: bold;
+    
 }
 
-/* An element with class="form-group" usually containing a label/input pair */
+
+#form-group-container {
+    display: flex;
+    margin: 0.5rem;
+  
+}
 .form-group {
-  /* Display each pair on a new line taking upto the whole width -
-     i.e. present like a <div> element */
-  display: block;
-  /* Nicer spacing */
+    
+    flex-direction: column;
+    text-align: center;
+
   margin: 0.5rem;
 }
 
-/* A <label> element inside an element with class="form-group" */
-.form-group label {
-  /* Display labels inline with inputs -
-     but otherwise present them like a <div> element */
-  display: inline-block;
-  /* Use border-box sizing to set width ignoring padding/border */
-  box-sizing: border-box;
-  /* Set a minimum width to keep labels and inputs in line vertically */
-  min-width: 10rem;
-  /* Never be wider than the space available */
-  max-width: 100%;
+.form-group input {
+    margin: 0.5rem;
+    
 }
 
-/* A <textarea> element inside an element with class="form-group" */
-.form-group textarea {
-  /* Display each textarea on a new line -
-     i.e. present like a <div> element */
-  display: block;
-  /* Use border-box sizing to set width ignoring padding/border */
-  box-sizing: border-box;
-  /* Take the full width available */
-  width: 100%;
+.button {
+    text-align: right;
+    padding: 0.3rem;
+    margin-right: 3.5rem;
 }
 
-/* A <label> element inside an element with class="form-wrap" */
-.form-wrap label {
-  /* Add a bit of space to avoid touching the element below */
-  margin-bottom: 0.5rem;
+#filter {
+   display: flex;
 }
 
-/* A <label> element inside an element with class="form-inline" */
-.form-inline label {
-  /* Reset minimum width for multiple labels/inputs on one line */
-  min-width: 0;
+#filtering {
+    margin-top: 1.7rem;
+    margin-left: 1.2rem;    
+}
+
+#filtering input {
+    padding-left: 0.5rem;
+}
+
+#examples-area {
+ 
+   max-height: 150rem;
+    max-width: auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+#sub-examples-area {
+    overflow: auto;
+    max-height: 500px;
+    margin-top: 1rem;
 }
 
 /* Respond to smaller screens */

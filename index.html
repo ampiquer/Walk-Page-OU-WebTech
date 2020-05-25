@@ -20,23 +20,22 @@
                 <form action="https://students.open.ac.uk/mct/tt284/reflect/reflect.php" method="post">
                     <fieldset>
                         <h3>NEW WALK</h3>
+                        <div id="form-group-container">
                             <div class="form-group">
                                 <input id="name" name="name" type="text" placeholder="Name" />
-                            </div>
-                            <div class="form-group">
+                                
                                 <input id="date" name="date" type="text" placeholder="Date"/>
                             </div>
                             <div class="form-group">
                                 <input id="time" name="time" type="text" placeholder="Start time"/>
-                            </div>
-                            <div class="form-group">
+  
                                 <input id="meeting" name="meeting" type="text" placeholder="Meeting point"/>
                             </div>
                             <div class="form-group">
                                 <input id="distance" name="distance" type="text" placeholder="Distance in miles"/>
-                            </div>
-                            <div class="form-group">
+
                                 <input id="notes" name="notes" type="text" placeholder="Notes" />
+                            </div>
                             </div>
                             <div class="button">
                                 <input type="button" value="Remove/Reject">
@@ -46,11 +45,12 @@
                     </fieldset>
                 </form>
             </div>
-            <div>
+            <div id="examples-area">
                 <fieldset>
-                <h3>WALKS</h3>
+                <div id="filter">
+                    <div><h3>WALKS</h3></div>
                 
-                    <input id="all" name="all" type="radio" value="All"/>
+                    <div id="filtering"><input id="all" name="all" type="radio" value="All"/>
                     <label for="all">All</label>
                     <input id="drafts" name="drafts" type="radio" value="Drafts"/>
                     <label for="drafts">Drafts</label>
@@ -65,10 +65,11 @@
                     <label for="calendar2">To:</label>
                     <input id="calendar2" name="calendar2" type="text" value="dd/mm/yyyy">
                     <input type="button" value="Go">
+                    </div>  
+                </div>
                     <br>
                     <a class="filter" href="">Oldest first</a> <a class="filter" id="selected_filter" href="">Newest first</a>
-                </fieldset>
-                <div id="examples_area">
+                <div id="sub-examples-area">
                     <div class="examples">
                         <div class="data_column">
                             <p><b>Callander to Trossachs</b></p>
@@ -136,6 +137,7 @@
                         </div>
                     </div>
                 </div>
+            </fieldset>
             </div>
             
         </article> 
