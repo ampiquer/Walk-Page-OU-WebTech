@@ -33,11 +33,21 @@ header {
 
 #web_name {
     flex-grow: 3;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  align-items: center;
 }
+
+
 
 #sign_out {
     flex-grow: 1;
     text-align: right;
+  display: flex;
+    justify-content: center;
+  align-items: center;
+    flex-direction: column;
 }
 
 nav {
