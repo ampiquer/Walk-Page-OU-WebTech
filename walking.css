@@ -86,8 +86,42 @@ fieldset {
 #sub-examples-area {
     overflow: auto;
     max-height: 500px;
-    margin-top: 1rem;
+    
 }
+
+.examples {
+    display: flex;
+    border: solid;
+    max-height: 140rem;
+    max-width: inherit;
+    margin: 2rem;
+    
+}
+
+.data_column {
+    margin-right: 6rem;
+    margin-left: 6rem;
+}
+
+.notes_column {
+    margin-right: 6rem;
+    margin-left: 4rem;
+}
+
+.upper_info {
+    padding: 1rem;
+    border: solid;
+    margin-top: 0;
+   
+}
+
+
+.examples_buttons {
+    margin-top: 8rem;
+    margin-left: 1rem;
+    
+}
+
 
 /* Respond to smaller screens */
 @media only screen and (max-width: 620px) {
