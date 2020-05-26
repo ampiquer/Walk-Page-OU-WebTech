@@ -52,6 +52,10 @@ fieldset {
     
 }
 
+#hidden {
+    display: none;
+}
+
 .button {
     text-align: right;
     padding: 0.3rem;
