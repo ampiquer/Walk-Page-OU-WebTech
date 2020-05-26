@@ -9,11 +9,26 @@ select {
   font-size: 1.4rem;
 }
 
+body {
+    background-color: #a64f37;
+}
+
 article {
     align-items: center;
+    background-color: white;
+    padding-bottom: 0.5rem;
 }
 header {
     display:flex;
+    background-color: white;
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    background-color: white;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    text-align: center;
 }
 
 form {
