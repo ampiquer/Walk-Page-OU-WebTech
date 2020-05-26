@@ -20,8 +20,24 @@ article {
 }
 header {
     display:flex;
+    align-items: stretch;
     background-color: white;
     margin-bottom: 0.5rem;
+}
+
+#logo {
+    flex-grow: 0;
+    border-style:ridge;
+    border-radius: 16px;
+}
+
+#web_name {
+    flex-grow: 3;
+}
+
+#sign_out {
+    flex-grow: 1;
+    text-align: right;
 }
 
 nav {
