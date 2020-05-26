@@ -64,6 +64,11 @@ fieldset {
 
 #filter {
    display: flex;
+    margin-left: 1rem;
+}
+
+.filter {
+    margin-left: 2rem;
 }
 
 #filtering {
@@ -119,6 +124,7 @@ fieldset {
 .examples_buttons {
     margin-top: 8rem;
     margin-left: 1rem;
+    
     
 }
 
