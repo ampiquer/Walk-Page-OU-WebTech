@@ -214,3 +214,89 @@ footer {
   /* Put normally inline elements on a new line taking upto the whole width -
      i.e. present like a <div> element */
 
+    #logo {
+        border: none; 
+            
+    }
+    #logo img {
+        width: 75%;
+    }
+    
+    h2 {
+        font-size: 80%;
+    }
+    
+    
+    #form-group-container {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    
+    form {
+ 
+   max-height: inherit;
+    max-width: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    }
+    
+  #examples-area {
+ 
+   max-height: 150rem;
+    max-width: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    }  
+    
+   .examples {
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    max-height: 140rem;
+    max-width: inherit;
+    margin: 0.5rem;
+    
+}
+
+.data_column {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.notes_column {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.upper_info {
+    padding: 0.5rem;
+    border: solid;
+    margin-top: 0;
+    text-align: center;
+}
+
+
+.examples_buttons {
+   margin: 0;
+    text-align: center;
+    
+}
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
