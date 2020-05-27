@@ -220,14 +220,31 @@ footer {
      i.e. present like a <div> element */
 
     #logo {
-        border: none; 
-            
+        border: none;
     }
     #logo img {
-        width: 75%;
+        width: 55%;
     }
     
     h2 {
+        font-size: 80%;
+    }
+    
+    #web_name {
+    text-align: left;
+    margin-left: -5rem;
+}
+
+
+
+#sign_out {
+    
+    font-size: 70%;
+    margin-right: 0.5rem;
+    }
+    
+    #sign_out button {
+        margin-top: -0.5rem;
         font-size: 80%;
     }
     
