@@ -248,6 +248,16 @@ footer {
     padding-top: 1rem;
     }
     
+    .button {
+    text-align: center;
+    padding: 0;
+    margin: 0 0 0.5rem 0;
+}
+    #upload {
+        margin-top: 0.5rem;
+        width: 15rem;
+    }
+    
   #examples-area {
  
    max-height: 150rem;
@@ -291,7 +301,7 @@ footer {
     }
     
 .examples_buttons {
-   margin: 0 0 0.5rem 0;
+   margin: 0 0.5rem 0.5rem 0;
     text-align: center;
     
 }
@@ -308,10 +318,6 @@ footer {
         padding: 0;
 }
 
-    
-#filtering input {
-    padding-left: 0.5rem;
-}
 
 #calendar1,
 #calendar2 {
