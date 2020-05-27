@@ -231,6 +231,21 @@ footer {
         font-size: 80%;
     }
     
+    nav {
+    flex-wrap: wrap;
+    font-size: 0.8rem;
+}
+
+nav a {
+    border:none;
+    width: 89.5px;
+}
+    
+    #walks_selected {
+    border: solid black;
+    border-top: none;
+}
+  
     
     #form-group-container {
         display: flex;
@@ -238,7 +253,8 @@ footer {
         margin: 0;
     }
     
-    form {
+    
+  form {
  
    max-height: inherit;
     max-width: auto;
@@ -328,6 +344,7 @@ footer {
         margin-top: 0.5rem;
         width: 18.4rem;
     }
+    
     
     
     
