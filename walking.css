@@ -140,6 +140,7 @@ h3 {
 }
 
 #filtering {
+    display: flex;
     margin-top: 1.3rem;
     margin-left: 1.2rem;    
 }
@@ -291,8 +292,32 @@ footer {
     
 }
  
+    #filter {
+   display: flex;
+    flex-direction: column;
     
+}
+   
+    #filtering {
+    flex-direction: column;
+     margin: 0 -1rem 0 0;
+        padding: 0;
+}
+
     
+#filtering input {
+    padding-left: 0.5rem;
+}
+
+#calendar1,
+#calendar2 {
+    width: 3.7rem;
+}
+    
+    #go {
+        margin-top: 0.5rem;
+        width: 18.4rem;
+    }
     
     
     
